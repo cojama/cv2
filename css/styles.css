@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #191919;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #D8D2CB;
+  border-width: 6px;
+  width: 4%;
+  margin: 50px auto 50px auto;
+}
+
+h1 {
+  color: #C84B31;
+  font-family: 'Rock Salt', cursive;
+  font-size: 4rem;
+  margin: 50px auto 0 auto;
+  font-weight: normal;
+}
+
+h2 {
+  color: #C84B31;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #2D4263;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #2D4263;
+  margin: 0 20px 0 20px;
+}
+
+.top-container {
+  background-color: #ECDBBA;
+  position: relative;
+  padding-top: 100px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.mountain {
+  width: 40%;
+}
+
+.middle-container {}
+
+.my-avatar {
+  width: 10%;
+}
+
+.intro {
+  width: 30%;
+  margin: 33.200px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 20px auto 20px auto;
+  text-align: left;
+}
+
+.computer {
+  width: 10%;
+  float: left;
+  margin-right: 30px;
+}
+
+.soup {
+  width: 10%;
+  float: right;
+  margin-left: 30px;
+}
+
+.cooking-h3 {
+  text-align: right;
+}
+
+.cooking-p {
+  text-align: right;
+}
+
+.bottom-container {
+  background-color: #C84B31;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.contact-text {
+  margin-bottom: 30px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #2D4263;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #191919;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #ECDBBA;
+}
+
+.copyright {
+  color: #191919;
+  font-size: .8rem;
+}
+
+.attribution {
+  color: #191919;
+  text-decoration: none;
+  font-size: .8rem;
+}
+
+.attribution:hover {
+  color: #ECDBBA;
+}
